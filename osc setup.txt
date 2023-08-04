@@ -1,0 +1,22 @@
+signal 1:
+	- pulse 
+		low - 1v
+		max - 5v
+		period- 750us
+		edge rise - 10ns
+		fall rise - 10ns 
+		stays up - 10us 
+
+
+
+signal 2:
+	- pulse 
+		low - 1v
+		max - 5v
+		period- - 750us
+		edge rise - 10ns
+		fall rise - 10ns 
+		stays up - 10us 
+		inverted
+
+	
